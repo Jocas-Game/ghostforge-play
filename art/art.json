@@ -1,0 +1,981 @@
+{
+  "sheets": {
+    "player": {
+      "file": "art/player.png",
+      "frameW": 42,
+      "frameH": 38,
+      "anchorX": 24,
+      "anchorY": 36,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 6,
+          "loop": true
+        },
+        "run": {
+          "start": 4,
+          "end": 8,
+          "fps": 11,
+          "loop": true
+        },
+        "dash": {
+          "start": 9,
+          "end": 12,
+          "fps": 18,
+          "loop": false
+        },
+        "attack": {
+          "start": 13,
+          "end": 16,
+          "fps": 12,
+          "loop": false
+        },
+        "hit": {
+          "start": 17,
+          "end": 19,
+          "fps": 12,
+          "loop": false
+        },
+        "death": {
+          "start": 20,
+          "end": 24,
+          "fps": 8,
+          "loop": false
+        }
+      }
+    },
+    "slime": {
+      "file": "art/slime.png",
+      "frameW": 37,
+      "frameH": 53,
+      "anchorX": 18,
+      "anchorY": 53,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 7,
+          "loop": true
+        },
+        "attack": {
+          "start": 4,
+          "end": 7,
+          "fps": 9,
+          "loop": true
+        }
+      }
+    },
+    "archer": {
+      "file": "art/archer.png",
+      "frameW": 35,
+      "frameH": 49,
+      "anchorX": 15,
+      "anchorY": 45,
+      "anims": {
+        "walk": {
+          "start": 0,
+          "end": 3,
+          "fps": 7,
+          "loop": true
+        },
+        "shoot": {
+          "start": 4,
+          "end": 7,
+          "fps": 8,
+          "loop": false
+        }
+      }
+    },
+    "boss-nemesis": {
+      "file": "art/boss-nemesis.png",
+      "frameW": 147,
+      "frameH": 116,
+      "anchorX": 88,
+      "anchorY": 116,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 5,
+          "loop": true
+        },
+        "slam": {
+          "start": 4,
+          "end": 7,
+          "fps": 8,
+          "loop": false
+        },
+        "charge": {
+          "start": 8,
+          "end": 11,
+          "fps": 9,
+          "loop": true
+        }
+      }
+    },
+    "boss-nemesis-knight": {
+      "file": "art/boss-nemesis-knight.png",
+      "frameW": 84,
+      "frameH": 93,
+      "anchorX": 46,
+      "anchorY": 92,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 5,
+          "loop": true
+        },
+        "slam": {
+          "start": 4,
+          "end": 7,
+          "fps": 8,
+          "loop": false
+        },
+        "charge": {
+          "start": 8,
+          "end": 11,
+          "fps": 9,
+          "loop": true
+        }
+      }
+    },
+    "boss-nemesis-beast": {
+      "file": "art/boss-nemesis-beast.png",
+      "frameW": 72,
+      "frameH": 81,
+      "anchorX": 34,
+      "anchorY": 78,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 5,
+          "loop": true
+        },
+        "slam": {
+          "start": 4,
+          "end": 7,
+          "fps": 8,
+          "loop": false
+        },
+        "charge": {
+          "start": 8,
+          "end": 11,
+          "fps": 9,
+          "loop": true
+        }
+      }
+    },
+    "boss-nemesis-wraith": {
+      "file": "art/boss-nemesis-wraith.png",
+      "frameW": 65,
+      "frameH": 79,
+      "anchorX": 31,
+      "anchorY": 74,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 5,
+          "loop": true
+        },
+        "slam": {
+          "start": 4,
+          "end": 7,
+          "fps": 8,
+          "loop": false
+        },
+        "charge": {
+          "start": 8,
+          "end": 11,
+          "fps": 9,
+          "loop": true
+        }
+      }
+    },
+    "bat": {
+      "file": "art/bat.png",
+      "frameW": 29,
+      "frameH": 30,
+      "anchorX": 15,
+      "anchorY": 27,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 12,
+          "loop": true
+        },
+        "attack": {
+          "start": 4,
+          "end": 7,
+          "fps": 12,
+          "loop": true
+        }
+      }
+    },
+    "armor": {
+      "file": "art/armor.png",
+      "frameW": 40,
+      "frameH": 35,
+      "anchorX": 20,
+      "anchorY": 34,
+      "anims": {
+        "walk": {
+          "start": 0,
+          "end": 3,
+          "fps": 6,
+          "loop": true
+        },
+        "attack": {
+          "start": 4,
+          "end": 7,
+          "fps": 10,
+          "loop": false
+        }
+      }
+    },
+    "book": {
+      "file": "art/book.png",
+      "frameW": 35,
+      "frameH": 29,
+      "anchorX": 16,
+      "anchorY": 28,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 7,
+          "loop": true
+        },
+        "attack": {
+          "start": 4,
+          "end": 7,
+          "fps": 9,
+          "loop": false
+        }
+      }
+    },
+    "mimic": {
+      "file": "art/mimic.png",
+      "frameW": 35,
+      "frameH": 34,
+      "anchorX": 17,
+      "anchorY": 33,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 6,
+          "loop": true
+        },
+        "attack": {
+          "start": 4,
+          "end": 7,
+          "fps": 12,
+          "loop": false
+        }
+      }
+    },
+    "wisp": {
+      "file": "art/wisp.png",
+      "frameW": 34,
+      "frameH": 44,
+      "anchorX": 14,
+      "anchorY": 34,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 8,
+          "loop": true
+        },
+        "attack": {
+          "start": 4,
+          "end": 7,
+          "fps": 10,
+          "loop": true
+        }
+      }
+    },
+    "cultist": {
+      "file": "art/cultist.png",
+      "frameW": 36,
+      "frameH": 48,
+      "anchorX": 21,
+      "anchorY": 43,
+      "anims": {
+        "walk": {
+          "start": 0,
+          "end": 3,
+          "fps": 6,
+          "loop": true
+        },
+        "attack": {
+          "start": 4,
+          "end": 7,
+          "fps": 7,
+          "loop": false
+        }
+      }
+    },
+    "boss-guardian": {
+      "file": "art/boss-guardian.png",
+      "frameW": 64,
+      "frameH": 83,
+      "anchorX": 33,
+      "anchorY": 80,
+      "anims": {
+        "idle": {
+          "start": 0,
+          "end": 3,
+          "fps": 5,
+          "loop": true
+        },
+        "slam": {
+          "start": 4,
+          "end": 7,
+          "fps": 8,
+          "loop": false
+        },
+        "charge": {
+          "start": 8,
+          "end": 11,
+          "fps": 9,
+          "loop": true
+        }
+      }
+    }
+  },
+  "tiles": {
+    "file": "art/tiles.png",
+    "size": 32,
+    "map": {
+      "floor0": 0,
+      "floor1": 1,
+      "floor2": 2,
+      "floor_crack": 3,
+      "floor_rune": 4,
+      "floor_moss": 5,
+      "floor_bones": 6,
+      "floor_puddle": 7,
+      "wall": 8,
+      "wall_b": 9,
+      "wall_c": 10,
+      "wall_web": 11,
+      "wall_vine": 12,
+      "wall_window": 13,
+      "wall_crack": 14,
+      "wall_hole": 15,
+      "door_closed": 16,
+      "door_open": 17,
+      "arch": 18,
+      "arch_b": 19,
+      "gate_closed": 20,
+      "gate_open": 21,
+      "pillar": 22,
+      "pillar_b": 23,
+      "wall_torch": 24,
+      "crystal": 25,
+      "mushrooms": 26,
+      "bones": 27,
+      "chest": 28,
+      "chains": 29,
+      "crate": 30,
+      "rubble": 31
+    }
+  },
+  "icons": {
+    "big": {
+      "file": "art/icons.png",
+      "size": 37,
+      "names": [
+        "dmg",
+        "atkSpeed",
+        "move",
+        "hp",
+        "crit",
+        "critMul",
+        "range",
+        "dash",
+        "heal"
+      ]
+    },
+    "small": {
+      "file": "art/icons-small.png",
+      "w": 22,
+      "h": 22,
+      "names": [
+        "dmg",
+        "atkSpeed",
+        "move",
+        "hp",
+        "crit",
+        "critMul",
+        "range",
+        "dash",
+        "heal"
+      ]
+    }
+  },
+  "logo": "art/logo.png",
+  "illustrations": {
+    "title-bg": "art/illustrations/title-bg.png",
+    "death-bg": "art/illustrations/death-bg.png",
+    "boss-guardian-splash": "art/illustrations/boss-guardian-splash.png",
+    "studio-blueprint": "art/illustrations/studio-blueprint.png",
+    "sketch-zero": "art/illustrations/sketch-zero.png",
+    "studio-attic": "art/illustrations/studio-attic.png",
+    "studio-floor": "art/illustrations/studio-floor.png",
+    "studio-library": "art/illustrations/studio-library.png",
+    "studio-basement": "art/illustrations/studio-basement.png",
+    "portrait-candle-slime": "art/illustrations/portrait-candle-slime.png",
+    "portrait-chained-tyrant": "art/illustrations/portrait-chained-tyrant.png",
+    "portrait-cursed-book": "art/illustrations/portrait-cursed-book.png",
+    "portrait-haunted-armor": "art/illustrations/portrait-haunted-armor.png",
+    "portrait-lantern-bat": "art/illustrations/portrait-lantern-bat.png",
+    "portrait-mimic-coffin": "art/illustrations/portrait-mimic-coffin.png",
+    "portrait-mushroom-cultist": "art/illustrations/portrait-mushroom-cultist.png",
+    "portrait-skeleton-archer": "art/illustrations/portrait-skeleton-archer.png",
+    "portrait-soul-eater-wisp": "art/illustrations/portrait-soul-eater-wisp.png",
+    "ghost-forge": "art/illustrations/ghost-forge.png",
+    "ghost-sound": "art/illustrations/ghost-sound.png",
+    "ghost-art": "art/illustrations/ghost-art.png",
+    "ghost-knowledge": "art/illustrations/ghost-knowledge.png"
+  },
+  "ui": {
+    "hero-back": "art/ui/hero-back.png",
+    "portrait": "art/ui/portrait.png",
+    "tree-start": "art/ui/tree-start.png",
+    "tree-locked": "art/ui/tree-locked.png",
+    "tree-enemy": "art/ui/tree-enemy.png",
+    "tree-room": "art/ui/tree-room.png",
+    "tree-feature": "art/ui/tree-feature.png",
+    "tree-done": "art/ui/tree-done.png",
+    "panel": "art/ui/panel.png",
+    "button": "art/ui/button.png",
+    "button-hover": "art/ui/button-hover.png",
+    "card-common": "art/ui/card-common.png",
+    "card-rare": "art/ui/card-rare.png",
+    "card-epic": "art/ui/card-epic.png",
+    "heart-full": "art/ui/heart-full.png",
+    "heart-empty": "art/ui/heart-empty.png",
+    "bar": "art/ui/bar.png",
+    "boss-bar": "art/ui/boss-bar.png",
+    "soul-icon": "art/ui/soul-icon.png",
+    "vfx-spark-0": "art/ui/vfx-spark-0.png",
+    "vfx-spark-1": "art/ui/vfx-spark-1.png",
+    "vfx-spark-2": "art/ui/vfx-spark-2.png",
+    "vfx-spark-3": "art/ui/vfx-spark-3.png",
+    "vfx-slash-0": "art/ui/vfx-slash-0.png",
+    "vfx-slash-1": "art/ui/vfx-slash-1.png",
+    "vfx-slash-2": "art/ui/vfx-slash-2.png",
+    "vfx-slash-3": "art/ui/vfx-slash-3.png",
+    "vfx-pillar-0": "art/ui/vfx-pillar-0.png",
+    "vfx-pillar-1": "art/ui/vfx-pillar-1.png",
+    "vfx-pillar-2": "art/ui/vfx-pillar-2.png",
+    "vfx-pillar-3": "art/ui/vfx-pillar-3.png",
+    "vfx-soul-0": "art/ui/vfx-soul-0.png",
+    "vfx-soul-1": "art/ui/vfx-soul-1.png",
+    "vfx-soul-2": "art/ui/vfx-soul-2.png",
+    "vfx-soul-3": "art/ui/vfx-soul-3.png",
+    "vfx-smoke-0": "art/ui/vfx-smoke-0.png",
+    "vfx-smoke-1": "art/ui/vfx-smoke-1.png",
+    "vfx-smoke-2": "art/ui/vfx-smoke-2.png",
+    "vfx-smoke-3": "art/ui/vfx-smoke-3.png",
+    "vfx-spark": "art/ui/vfx-spark.png",
+    "vfx-slash": "art/ui/vfx-slash.png",
+    "vfx-pillar": "art/ui/vfx-pillar.png",
+    "vfx-soul": "art/ui/vfx-soul.png",
+    "vfx-smoke": "art/ui/vfx-smoke.png",
+    "crystal": "art/ui/crystal.png",
+    "shard-0": "art/ui/shard-0.png",
+    "shard-1": "art/ui/shard-1.png",
+    "shard-2": "art/ui/shard-2.png",
+    "shard-3": "art/ui/shard-3.png",
+    "shard-4": "art/ui/shard-4.png",
+    "shard-5": "art/ui/shard-5.png",
+    "shard-6": "art/ui/shard-6.png",
+    "shard-7": "art/ui/shard-7.png",
+    "studio-scene": "art/ui/studio-scene.png",
+    "critic-lens": "art/ui/critic-lens.png",
+    "decor-anvil": "art/ui/decor-anvil.png",
+    "decor-door": "art/ui/decor-door.png",
+    "decor-globe": "art/ui/decor-globe.png",
+    "decor-lamp": "art/ui/decor-lamp.png",
+    "decor-piano": "art/ui/decor-piano.png",
+    "fx-block": "art/ui/fx-block.png",
+    "fx-crack": "art/ui/fx-crack.png",
+    "fx-fire": "art/ui/fx-fire.png",
+    "fx-flame": "art/ui/fx-flame.png",
+    "fx-guard-break": "art/ui/fx-guard-break.png",
+    "fx-poison": "art/ui/fx-poison.png",
+    "fx-ring": "art/ui/fx-ring.png",
+    "fx-shield-broken": "art/ui/fx-shield-broken.png",
+    "fx-shield": "art/ui/fx-shield.png",
+    "fx-warn-circle": "art/ui/fx-warn-circle.png",
+    "fx-warn-line": "art/ui/fx-warn-line.png",
+    "pickup-bag": "art/ui/pickup-bag.png",
+    "pickup-energy": "art/ui/pickup-energy.png",
+    "pickup-heart": "art/ui/pickup-heart.png",
+    "relic-avengers-mark": "art/ui/relic-avengers-mark.png",
+    "relic-berserker-heart": "art/ui/relic-berserker-heart.png",
+    "relic-echo-blade": "art/ui/relic-echo-blade.png",
+    "relic-eye-of-truth": "art/ui/relic-eye-of-truth.png",
+    "relic-ghost-step": "art/ui/relic-ghost-step.png",
+    "relic-glass-skull": "art/ui/relic-glass-skull.png",
+    "relic-greed-coin": "art/ui/relic-greed-coin.png",
+    "relic-haunted-lantern": "art/ui/relic-haunted-lantern.png",
+    "relic-phoenix-feather": "art/ui/relic-phoenix-feather.png",
+    "relic-soul-battery": "art/ui/relic-soul-battery.png",
+    "relic-thorn-crown": "art/ui/relic-thorn-crown.png",
+    "relic-vampire-fang": "art/ui/relic-vampire-fang.png",
+    "station-altar": "art/ui/station-altar.png",
+    "station-chest": "art/ui/station-chest.png",
+    "station-shop": "art/ui/station-shop.png",
+    "weapon-sword": "art/ui/weapon-sword.png",
+    "weapon-twin-daggers": "art/ui/weapon-twin-daggers.png",
+    "tombstone": "art/ui/tombstone.png",
+    "proj-arrow": "art/ui/proj-arrow.png",
+    "proj-page": "art/ui/proj-page.png",
+    "card-shop": "art/ui/card-shop.png",
+    "card-altar": "art/ui/card-altar.png",
+    "card-chest": "art/ui/card-chest.png"
+  },
+  "parts": {
+    "shop-awning": {
+      "file": "art/parts/shop-awning.png",
+      "x": 40,
+      "y": 147,
+      "w": 392,
+      "h": 458,
+      "f": 0.47959183673469385
+    },
+    "shop-table": {
+      "file": "art/parts/shop-table.png",
+      "x": 452,
+      "y": 330,
+      "w": 340,
+      "h": 246,
+      "f": 0.47941176470588237
+    },
+    "shop-ghost": {
+      "file": "art/parts/shop-ghost.png",
+      "x": 819,
+      "y": 334,
+      "w": 154,
+      "h": 151,
+      "f": 0.4805194805194805
+    },
+    "shop-jar": {
+      "file": "art/parts/shop-jar.png",
+      "x": 1026,
+      "y": 335,
+      "w": 115,
+      "h": 178,
+      "f": 0.4782608695652174
+    },
+    "shop-coins": {
+      "file": "art/parts/shop-coins.png",
+      "x": 1193,
+      "y": 416,
+      "w": 132,
+      "h": 92,
+      "f": 0.4772727272727273
+    },
+    "shop-cloth": {
+      "file": "art/parts/shop-cloth.png",
+      "x": 40,
+      "y": 147,
+      "w": 392,
+      "h": 458,
+      "f": 0.47959183673469385
+    },
+    "shop-frame": {
+      "file": "art/parts/shop-frame.png",
+      "x": 40,
+      "y": 147,
+      "w": 392,
+      "h": 458,
+      "f": 0.47959183673469385
+    },
+    "altar-block": {
+      "file": "art/parts/altar-block.png",
+      "x": 63,
+      "y": 169,
+      "w": 459,
+      "h": 442,
+      "f": 0.4357298474945534
+    },
+    "altar-bowl": {
+      "file": "art/parts/altar-bowl.png",
+      "x": 630,
+      "y": 283,
+      "w": 270,
+      "h": 201,
+      "f": 0.43703703703703706
+    },
+    "altar-runes": {
+      "file": "art/parts/altar-runes.png",
+      "x": 1008,
+      "y": 328,
+      "w": 300,
+      "h": 105,
+      "f": 0.43666666666666665
+    },
+    "altar-blood": {
+      "file": "art/parts/altar-blood.png",
+      "x": 630,
+      "y": 283,
+      "w": 270,
+      "h": 201,
+      "f": 0.43703703703703706
+    },
+    "altar-bowl-empty": {
+      "file": "art/parts/altar-bowl-empty.png",
+      "x": 630,
+      "y": 283,
+      "w": 270,
+      "h": 201,
+      "f": 0.43703703703703706
+    },
+    "altar-rune-0": {
+      "file": "art/parts/altar-rune-0.png",
+      "x": 1008,
+      "y": 329,
+      "w": 40,
+      "h": 82,
+      "f": 0.425
+    },
+    "altar-rune-1": {
+      "file": "art/parts/altar-rune-1.png",
+      "x": 1065,
+      "y": 345,
+      "w": 43,
+      "h": 88,
+      "f": 0.4418604651162791
+    },
+    "altar-rune-2": {
+      "file": "art/parts/altar-rune-2.png",
+      "x": 1128,
+      "y": 340,
+      "w": 49,
+      "h": 82,
+      "f": 0.42857142857142855
+    },
+    "altar-rune-3": {
+      "file": "art/parts/altar-rune-3.png",
+      "x": 1191,
+      "y": 340,
+      "w": 54,
+      "h": 82,
+      "f": 0.4444444444444444
+    },
+    "altar-rune-4": {
+      "file": "art/parts/altar-rune-4.png",
+      "x": 1260,
+      "y": 328,
+      "w": 48,
+      "h": 72,
+      "f": 0.4375
+    },
+    "altar-block-dim": {
+      "file": "art/parts/altar-block-dim.png",
+      "x": 63,
+      "y": 169,
+      "w": 459,
+      "h": 442,
+      "f": 0.4357298474945534
+    },
+    "altar-glyph-0": {
+      "file": "art/parts/altar-glyph-0.png",
+      "x": 101,
+      "y": 375,
+      "w": 26,
+      "h": 59,
+      "f": 0.4230769230769231
+    },
+    "altar-glyph-1": {
+      "file": "art/parts/altar-glyph-1.png",
+      "x": 136,
+      "y": 393,
+      "w": 32,
+      "h": 70,
+      "f": 0.4375
+    },
+    "altar-glyph-2": {
+      "file": "art/parts/altar-glyph-2.png",
+      "x": 176,
+      "y": 414,
+      "w": 32,
+      "h": 71,
+      "f": 0.4375
+    },
+    "altar-glyph-3": {
+      "file": "art/parts/altar-glyph-3.png",
+      "x": 216,
+      "y": 438,
+      "w": 26,
+      "h": 58,
+      "f": 0.4230769230769231
+    },
+    "altar-glyph-4": {
+      "file": "art/parts/altar-glyph-4.png",
+      "x": 250,
+      "y": 456,
+      "w": 31,
+      "h": 58,
+      "f": 0.45161290322580644
+    },
+    "altar-glyph-5": {
+      "file": "art/parts/altar-glyph-5.png",
+      "x": 318,
+      "y": 449,
+      "w": 28,
+      "h": 65,
+      "f": 0.42857142857142855
+    },
+    "altar-glyph-6": {
+      "file": "art/parts/altar-glyph-6.png",
+      "x": 359,
+      "y": 419,
+      "w": 41,
+      "h": 72,
+      "f": 0.43902439024390244
+    },
+    "altar-glyph-7": {
+      "file": "art/parts/altar-glyph-7.png",
+      "x": 404,
+      "y": 408,
+      "w": 39,
+      "h": 62,
+      "f": 0.4358974358974359
+    },
+    "altar-glyph-8": {
+      "file": "art/parts/altar-glyph-8.png",
+      "x": 449,
+      "y": 380,
+      "w": 35,
+      "h": 54,
+      "f": 0.42857142857142855
+    },
+    "cursed-coffin-body": {
+      "file": "art/parts/cursed-coffin-body.png",
+      "x": 89,
+      "y": 49,
+      "w": 351,
+      "h": 668,
+      "f": 0.29914529914529914
+    },
+    "cursed-coffin-lid": {
+      "file": "art/parts/cursed-coffin-lid.png",
+      "x": 534,
+      "y": 85,
+      "w": 260,
+      "h": 634,
+      "f": 0.3
+    },
+    "cursed-coffin-cross": {
+      "file": "art/parts/cursed-coffin-cross.png",
+      "x": 873,
+      "y": 152,
+      "w": 99,
+      "h": 166,
+      "f": 0.30303030303030304
+    },
+    "cursed-coffin-chains": {
+      "file": "art/parts/cursed-coffin-chains.png",
+      "x": 998,
+      "y": 88,
+      "w": 323,
+      "h": 600,
+      "f": 0.30030959752321984
+    },
+    "studio-bg-mansion": {
+      "file": "art/parts/studio-bg-mansion.png",
+      "x": 49,
+      "y": 11,
+      "w": 593,
+      "h": 686,
+      "f": 1
+    },
+    "studio-bg-moon": {
+      "file": "art/parts/studio-bg-moon.png",
+      "x": 718,
+      "y": 57,
+      "w": 223,
+      "h": 224,
+      "f": 1
+    },
+    "studio-bg-cloud-0": {
+      "file": "art/parts/studio-bg-cloud-0.png",
+      "x": 1017,
+      "y": 120,
+      "w": 289,
+      "h": 46,
+      "f": 1
+    },
+    "studio-bg-cloud-1": {
+      "file": "art/parts/studio-bg-cloud-1.png",
+      "x": 1030,
+      "y": 227,
+      "w": 295,
+      "h": 68,
+      "f": 1
+    },
+    "studio-bg-tree-0": {
+      "file": "art/parts/studio-bg-tree-0.png",
+      "x": 651,
+      "y": 446,
+      "w": 122,
+      "h": 187,
+      "f": 1
+    },
+    "studio-bg-tree-1": {
+      "file": "art/parts/studio-bg-tree-1.png",
+      "x": 846,
+      "y": 427,
+      "w": 163,
+      "h": 304,
+      "f": 1
+    },
+    "studio-bg-window-0": {
+      "file": "art/parts/studio-bg-window-0.png",
+      "x": 1064,
+      "y": 335,
+      "w": 111,
+      "h": 121,
+      "f": 1
+    },
+    "studio-bg-window-1": {
+      "file": "art/parts/studio-bg-window-1.png",
+      "x": 1225,
+      "y": 335,
+      "w": 90,
+      "h": 121,
+      "f": 1
+    },
+    "studio-bg-window-2": {
+      "file": "art/parts/studio-bg-window-2.png",
+      "x": 1061,
+      "y": 517,
+      "w": 114,
+      "h": 159,
+      "f": 1
+    },
+    "studio-bg-window-3": {
+      "file": "art/parts/studio-bg-window-3.png",
+      "x": 1215,
+      "y": 496,
+      "w": 112,
+      "h": 186,
+      "f": 1
+    },
+    "hero-back-body": {
+      "file": "art/parts/hero-back-body.png",
+      "x": 43,
+      "y": 29,
+      "w": 345,
+      "h": 699,
+      "f": 0.3652173913043478
+    },
+    "hero-back-cape": {
+      "file": "art/parts/hero-back-cape.png",
+      "x": 452,
+      "y": 115,
+      "w": 462,
+      "h": 570,
+      "f": 0.3658008658008658
+    },
+    "hero-back-sword": {
+      "file": "art/parts/hero-back-sword.png",
+      "x": 989,
+      "y": 156,
+      "w": 324,
+      "h": 454,
+      "f": 0.36728395061728397
+    },
+    "haunted-lantern-lantern": {
+      "file": "art/parts/haunted-lantern-lantern.png",
+      "x": 201,
+      "y": 66,
+      "w": 338,
+      "h": 608,
+      "f": 0.15680473372781065
+    },
+    "haunted-lantern-flame": {
+      "file": "art/parts/haunted-lantern-flame.png",
+      "x": 825,
+      "y": 185,
+      "w": 306,
+      "h": 405,
+      "f": 0.1568627450980392
+    },
+    "phoenix-feather-feather": {
+      "file": "art/parts/phoenix-feather-feather.png",
+      "x": 69,
+      "y": 99,
+      "w": 524,
+      "h": 608,
+      "f": 0.15458015267175573
+    },
+    "phoenix-feather-fire": {
+      "file": "art/parts/phoenix-feather-fire.png",
+      "x": 774,
+      "y": 88,
+      "w": 516,
+      "h": 619,
+      "f": 0.15503875968992248
+    },
+    "studio-light-0": {
+      "file": "art/parts/studio-light-0.png",
+      "x": 95,
+      "y": 235,
+      "w": 34,
+      "h": 70,
+      "f": 1
+    },
+    "studio-light-1": {
+      "file": "art/parts/studio-light-1.png",
+      "x": 95,
+      "y": 340,
+      "w": 34,
+      "h": 70,
+      "f": 1
+    },
+    "studio-light-2": {
+      "file": "art/parts/studio-light-2.png",
+      "x": 95,
+      "y": 445,
+      "w": 34,
+      "h": 73,
+      "f": 1
+    },
+    "studio-light-3": {
+      "file": "art/parts/studio-light-3.png",
+      "x": 258,
+      "y": 150,
+      "w": 26,
+      "h": 38,
+      "f": 1
+    },
+    "studio-light-4": {
+      "file": "art/parts/studio-light-4.png",
+      "x": 362,
+      "y": 148,
+      "w": 34,
+      "h": 45,
+      "f": 1
+    },
+    "studio-light-5": {
+      "file": "art/parts/studio-light-5.png",
+      "x": 480,
+      "y": 150,
+      "w": 26,
+      "h": 38,
+      "f": 1
+    }
+  }
+}

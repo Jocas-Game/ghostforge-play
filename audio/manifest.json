@@ -1,0 +1,31 @@
+{
+  "sfx": {
+    "swing0": "sfx/swing0.wav",
+    "swing1": "sfx/swing1.wav",
+    "swing2": "sfx/swing2.wav",
+    "hit": "sfx/hit.wav",
+    "crit": "sfx/crit.wav",
+    "dash": "sfx/dash.wav",
+    "kill": "sfx/kill.wav",
+    "hurt": "sfx/hurt.wav",
+    "soul": "sfx/soul.wav",
+    "spawn": "sfx/spawn.wav",
+    "levelup": "sfx/levelup.wav",
+    "select": "sfx/select.wav",
+    "hover": "sfx/hover.wav",
+    "door": "sfx/door.wav",
+    "telegraph": "sfx/telegraph.wav",
+    "arrow": "sfx/arrow.wav",
+    "slam": "sfx/slam.wav",
+    "bossroar": "sfx/bossroar.wav",
+    "shatter": "sfx/shatter.wav",
+    "death": "sfx/death.wav",
+    "victory": "sfx/victory.wav",
+    "heartbeat": "sfx/heartbeat.wav"
+  },
+  "music": {
+    "dungeon": "music/dungeon.m4a",
+    "boss": "music/boss.m4a",
+    "end": "music/end.m4a"
+  }
+}
